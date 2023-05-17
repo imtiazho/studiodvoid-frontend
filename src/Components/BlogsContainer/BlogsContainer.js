@@ -19,7 +19,7 @@ const BlogsContainer = () => {
                             {mousein === parseInt(1) && <span className='absolute bg-black opacity-60 w-full h-full bottom-0 duration-500'></span>}
                         </div>
                         <div className='px-10 mb-10 flex flex-col gap-6'>
-                            <Link className='font-bold text-4xl text-white'>THE VILLA OVERLOOKS DRAMATIC MOUNTAINOUS SCENERY</Link>
+                            <Link to='/blogD' className='font-[600] text-3xl leading-relaxed text-white'>THE VILLA OVERLOOKS DRAMATIC MOUNTAINOUS SCENERY</Link>
                             <span className='flex justify-between items-center text-primary'>
                                 <span className='flex items-center gap-2 font-medium text-sm'>
                                     <span><AiOutlineClockCircle /></span>
@@ -47,7 +47,7 @@ const BlogsContainer = () => {
                             {mousein === parseInt(2) && <span className='absolute bg-black opacity-60 w-full h-full bottom-0 duration-500'></span>}
                         </div>
                         <div className='px-10 mb-10 flex flex-col gap-6'>
-                            <Link className='font-bold text-4xl text-white'>THE VILLA OVERLOOKS DRAMATIC MOUNTAINOUS SCENERY</Link>
+                            <Link to='/blogD' className='font-[600] text-3xl leading-relaxed text-white'>THE VILLA OVERLOOKS DRAMATIC MOUNTAINOUS SCENERY</Link>
                             <span className='flex justify-between items-center text-primary'>
                                 <span className='flex items-center gap-2 font-medium text-sm'>
                                     <span><AiOutlineClockCircle /></span>
@@ -75,7 +75,7 @@ const BlogsContainer = () => {
                             {mousein === parseInt(3) && <span className='absolute bg-black opacity-60 w-full h-full bottom-0 duration-500'></span>}
                         </div>
                         <div className='px-10 mb-10 flex flex-col gap-6'>
-                            <Link className='font-bold text-4xl text-white'>THE VILLA OVERLOOKS DRAMATIC MOUNTAINOUS SCENERY</Link>
+                            <Link to='/blogD' className='font-[600] text-3xl leading-relaxed text-white'>THE VILLA OVERLOOKS DRAMATIC MOUNTAINOUS SCENERY</Link>
                             <span className='flex justify-between items-center text-primary'>
                                 <span className='flex items-center gap-2 font-medium text-sm'>
                                     <span><AiOutlineClockCircle /></span>
@@ -103,7 +103,7 @@ const BlogsContainer = () => {
                             {mousein === parseInt(4) && <span className='absolute bg-black opacity-60 w-full h-full bottom-0 duration-500'></span>}
                         </div>
                         <div className='px-10 mb-10 flex flex-col gap-6'>
-                            <Link className='font-bold text-4xl text-white'>THE VILLA OVERLOOKS DRAMATIC MOUNTAINOUS SCENERY</Link>
+                            <Link to='/blogD' className='font-[600] text-3xl leading-relaxed text-white'>THE VILLA OVERLOOKS DRAMATIC MOUNTAINOUS SCENERY</Link>
                             <span className='flex justify-between items-center text-primary'>
                                 <span className='flex items-center gap-2 font-medium text-sm'>
                                     <span><AiOutlineClockCircle /></span>
@@ -127,7 +127,7 @@ const BlogsContainer = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col gap-8 text-left somethiing'>
+                <div className='flex flex-col gap-8 text-left'>
                     <h2 className='text-white text-2xl font-bold'>Recent Articles</h2>
 
                     <div className='flex flex-col gap-6'>
