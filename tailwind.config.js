@@ -11,11 +11,12 @@ module.exports = {
   daisyui: {
     themes: [
       {
-        mytheme: {
+        studioDvoidTheme: {
           primary: "#ff6600",
-          secondary: "#141414",
-          accent: "#313332",
-          neutral: "#c5c5c5",
+          secondary: "#ddd",
+          accent: "#b4b4b4",
+          neutral: "#8c8c8c",
+          someDeep: "#3d3d3d",
           "base-100": "#ffffff",
         },
       },

@@ -23,32 +23,26 @@ const ProjectHomePage = () => {
                     <SwiperSlide style={{ height: "500px", overflow: "hidden" }} className='relative text-left'>
                         <img className='relative w-full h-full object-cover' src={projectPic1} alt="" />
                         <div className='absolute w-full h-full top-0 bg-[#000] opacity-40 z-1'></div>
-                        <h1 className='absolute bottom-10 text-3xl left-10 text-white font-[600] leading-normal'>AGA KHAN ACAMDEMY, <br /> BANGLADESH</h1>
-                        <p className='absolute bottom-[50%] top-[50%] right-[-70px] text-[16px] text-white text-md rotate-90'>Dhaka, Bashundara</p>
+                        <h1 className='absolute bottom-10 text-3xl left-10 text-white font-[600] leading-normal jose-font'>AGA KHAN ACAMDEMY, <br /> BANGLADESH</h1>
+                        <p className='absolute bottom-[50%] top-[50%] right-[-60px] text-[16px] text-white text-md rotate-90 jose-font'>Dhaka, Bashundara</p>
                     </SwiperSlide>
                     <SwiperSlide style={{ height: "500px", overflow: "hidden" }} className='relative text-left'>
                         <img className='relative w-full h-full object-cover' src={projectPic2} alt="" />
                         <div className='absolute w-full h-full top-0 bg-[#000] opacity-40 z-1'></div>
-                        <h1 className='absolute bottom-10 text-3xl left-10 text-white font-[600] leading-normal'>AGA KHAN ACAMDEMY, <br /> BANGLADESH</h1>
-                        <p className='absolute bottom-[50%] top-[50%] right-[-70px] text-[16px] text-white text-xl rotate-90'>Dhaka, Bashundara</p>
+                        <h1 className='absolute bottom-10 text-3xl left-10 text-white font-[600] leading-normal jose-font'>AGA KHAN ACAMDEMY, <br /> BANGLADESH</h1>
+                        <p className='absolute bottom-[50%] top-[50%] right-[-60px] text-[16px] text-white text-md rotate-90 jose-font'>Dhaka, Bashundara</p>
                     </SwiperSlide>
                     <SwiperSlide style={{ height: "500px", overflow: "hidden" }} className='relative text-left'>
                         <img className='relative w-full h-full object-cover' src={projectPic1} alt="" />
                         <div className='absolute w-full h-full top-0 bg-[#000] opacity-40 z-1'></div>
-                        <h1 className='absolute bottom-10 text-3xl left-10 text-white font-[600] leading-normal'>AGA KHAN ACAMDEMY, <br /> BANGLADESH</h1>
-                        <p className='absolute bottom-[50%] top-[50%] right-[-70px] text-[16px] text-white text-xl rotate-90'>Dhaka, Bashundara</p>
+                        <h1 className='absolute bottom-10 text-3xl left-10 text-white font-[600] leading-normal jose-font'>AGA KHAN ACAMDEMY, <br /> BANGLADESH</h1>
+                        <p className='absolute bottom-[50%] top-[50%] right-[-60px] text-[16px] text-white text-md rotate-90 jose-font'>Dhaka, Bashundara</p>
                     </SwiperSlide>
                     <SwiperSlide style={{ height: "500px", overflow: "hidden" }} className='relative text-left'>
                         <img className='relative w-full h-full object-cover' src={projectPic2} alt="" />
                         <div className='absolute w-full h-full top-0 bg-[#000] opacity-40 z-1'></div>
-                        <h1 className='absolute bottom-10 text-3xl left-10 text-white font-[600] leading-normal'>AGA KHAN ACAMDEMY, <br /> BANGLADESH</h1>
-                        <p className='absolute bottom-[50%] top-[50%] right-[-70px] text-[16px] text-white text-xl rotate-90'>Dhaka, Bashundara</p>
-                    </SwiperSlide>
-                    <SwiperSlide style={{ height: "500px", overflow: "hidden" }} className='relative text-left'>
-                        <img className='relative w-full h-full object-cover' src={projectPic1} alt="" />
-                        <div className='absolute w-full h-full top-0 bg-[#000] opacity-40 z-1'></div>
-                        <h1 className='absolute bottom-10 text-3xl left-10 text-white font-[600] leading-normal'>AGA KHAN ACAMDEMY, <br /> BANGLADESH</h1>
-                        <p className='absolute bottom-[50%] top-[50%] right-[-70px] text-[16px] text-white text-xl rotate-90'>Dhaka, Bashundara</p>
+                        <h1 className='absolute bottom-10 text-3xl left-10 text-white font-[600] leading-normal jose-font'>AGA KHAN ACAMDEMY, <br /> BANGLADESH</h1>
+                        <p className='absolute bottom-[50%] top-[50%] right-[-60px] text-[16px] text-white text-md rotate-90 jose-font'>Dhaka, Bashundara</p>
                     </SwiperSlide>
                 </Swiper>
 

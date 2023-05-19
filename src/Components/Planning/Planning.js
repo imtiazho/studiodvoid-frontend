@@ -32,9 +32,9 @@ const Planning = () => {
             <PageBanner banner={PlanningBanner} moto={"Planning"} subTitle={"About our Planning work up"} />
             <div className='w-5/6 mx-auto my-16 mb-36'>
                 <div className='grid grid-cols-4 gap-12'>
-                    <div className='col-span-1 text-white flex flex-col gap-6'>
+                    <div className='col-span-1 text-secondary flex flex-col gap-6'>
                         <div className='text-left px-4 py-8 bg-[#333]'>
-                            <p className='mb-4 text-xl border-b pb-2'>More Services</p>
+                            <p className='mb-4 text-xl border-b border-accent pb-2'>More Services</p>
                             <div className='flex flex-col gap-4'>
                                 <Link className='hover:bg-primary duration-300 hover:text-white bg-white p-3 text-black'>Architecture</Link>
                                 <Link className='hover:bg-primary duration-300 hover:text-white bg-white p-3 text-black'>Interior Work</Link>
@@ -42,7 +42,7 @@ const Planning = () => {
                             </div>
                         </div>
                         <div className='text-left px-4 py-8 bg-[#333]'>
-                            <p className='mb-4 text-xl border-b pb-2'>More Services</p>
+                            <p className='mb-4 text-xl border-b border-accent pb-2'>Contact</p>
                             <div className='flex flex-col gap-4'>
                                 <div className='bg-white p-3 text-black flex items-center gap-4'>
                                     <div className='text-[24px]'>
@@ -50,7 +50,7 @@ const Planning = () => {
                                     </div>
                                     <div>
                                         <p className='font-[500] mb-[2px]'>Phone Number</p>
-                                        <p className='text-[14px] text-[#3d3d3d]'>+123 456 7890</p>
+                                        <p className='text-[14px] text-someDeep'>+123 456 7890</p>
                                     </div>
                                 </div>
                                 <div className='bg-white p-3 text-black flex items-center gap-4'>
@@ -59,7 +59,7 @@ const Planning = () => {
                                     </div>
                                     <div>
                                         <p className='font-[500] mb-[2px]'>Email Address</p>
-                                        <p className='text-[15px] text-[#3d3d3d]'>info@abcmail.com</p>
+                                        <p className='text-[15px] text-someDeep'>info@abcmail.com</p>
                                     </div>
                                 </div>
                                 <div className='bg-white p-3 text-black flex items-center gap-4'>
@@ -68,13 +68,13 @@ const Planning = () => {
                                     </div>
                                     <div>
                                         <p className='font-[500] mb-[2px]'>Location</p>
-                                        <p className='text-[15px] text-[#3d3d3d]'>14/A, Miranda City, NYC</p>
+                                        <p className='text-[15px] text-someDeep'>14/A, Miranda City, NYC</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className='text-left px-6 py-8 bg-[#333]'>
-                            <p className='mb-4 text-xl border-b pb-2'>Gallery</p>
+                            <p className='mb-4 text-xl border-b pb-2 border-accent'>Gallery</p>
                             <div className='grid grid-cols-3 gap-2'>
                                 <img className='object-cover' src={galleryPic1} alt="" />
                                 <img className='object-cover' src={galleryPic2} alt="" />
@@ -88,21 +88,21 @@ const Planning = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-span-3 text-white text-left flex flex-col gap-6'>
+                    <div className='col-span-3 text-accent text-left flex flex-col gap-6'>
                         <img src={deptPic1} alt="" />
-                        <div className='flex flex-col gap-2 text-[15px] leading-relaxed font-[300]'>
-                            <p className='text-3xl leading-normal font-[500]'>Creative Solutions By Inoterior Professional Designers</p>
-                            <p>Since 1999, we have been providing great flooring solutions and customer service for homeowners and commercial clients. among flooring materials, none is more elegant and luxurious than natural stone. Give your consent, we design a perfect bend choose the style, we complete with our file.</p>
-                            <p>A wonderful serenity has taken  possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart and its very blessed.</p>
+                        <div className='flex flex-col text-[17px] leading-relaxed font-[300]'>
+                            <p className='text-3xl leading-normal font-[600] jose-font text-secondary jose-font'>Creative Solutions By Inoterior Professional Designers</p>
+                            <p className='jose-font'>Since 1999, we have been providing great flooring solutions and customer service for homeowners and commercial clients. among flooring materials, none is more elegant and luxurious than natural stone. Give your consent, we design a perfect bend choose the style, we complete with our file.</p>
+                            <p className='jose-font'>A wonderful serenity has taken  possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart and its very blessed.</p>
                         </div>
                         <div>
-                            <p className='text-3xl leading-normal font-[500]'>Service Advantages</p>
-                            <p className='text-[15px] leading-relaxed font-[300]'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                            <p className='text-3xl leading-normal font-[600] jose-font text-secondary'>Service Advantages</p>
+                            <p className='text-[17px] leading-relaxed font-[300] jose-font'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                         </div>
 
                         <div>
-                            <p className='text-3xl leading-normal font-[500] mb-1'>Our Latest Project</p>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                            <p className='text-3xl leading-normal font-[600] mb-1 jose-font text-secondary'>Our Latest Project</p>
+                            <p className='text-[17px] leading-relaxed font-[300] jose-font'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                             <div className='grid grid-cols-2 gap-12 my-12'>
                                 <div onMouseLeave={() => setMousein(false)} onMouseEnter={() => setMousein(6)} className='relative object-cover mb-2 overflow-hidden'>
                                     <img className={`${mousein === 6 && "scale-110"} duration-500 object-cover relative`} src={planningWorkUpPic1} alt="Pic" />
@@ -112,10 +112,10 @@ const Planning = () => {
                                     {
                                         mousein === 6 &&
                                         <div className='flex flex-col items-start justify-start h-full w-full absolute bottom-0 text-white'>
-                                            <div className='m-6 border p-6 flex flex-col justify-between h-full items-start'>
+                                            <div className='m-6 border border-accent p-6 flex flex-col justify-between h-full items-start'>
                                                 <div>
-                                                    <p className='text-[23px] font-[500] mb-2'>Modern Kitchen</p>
-                                                    <p className='text-[15px] font-[300]'>The style of the interior was defined as modern in light colors. Main materials used in project are wallpaper etc.</p>
+                                                    <p className='text-[23px] font-[500] mb-2 jose-font'>Modern Kitchen</p>
+                                                    <p className='text-[17px] font-[300] jose-font'>The style of the interior was defined as modern in light colors. Main materials used in project are wallpaper etc.</p>
                                                 </div>
                                                 <Link className='btn border-primary border-2 bg-transparent text-primary font-normal rounded-none mt-10 hover:bg-primary hover:border-transparent hover:text-black'>Read More +</Link>
                                             </div>
@@ -130,10 +130,10 @@ const Planning = () => {
                                     {
                                         mousein === 1 &&
                                         <div className='flex flex-col items-start justify-start h-full w-full absolute bottom-0 text-white'>
-                                            <div className='m-6 border p-6 flex flex-col justify-between h-full items-start'>
+                                            <div className='m-6 border border-accent p-6 flex flex-col justify-between h-full items-start'>
                                                 <div>
-                                                    <p className='text-[23px] font-[500] mb-2'>Interior Work</p>
-                                                    <p className='text-[15px] font-[300]'>The entire interior is the beginning of the history of the house, such as colors, lighting, and materials.</p>
+                                                    <p className='text-[23px] font-[500] mb-2 jose-font'>Interior Work</p>
+                                                    <p className='text-[17px] font-[300] jose-font'>The entire interior is the beginning of the history of the house, such as colors, lighting, and materials.</p>
                                                 </div>
                                                 <Link className='btn border-primary border-2 bg-transparent text-primary font-normal rounded-none mt-10 hover:bg-primary hover:border-transparent hover:text-black'>Read More +</Link>
                                             </div>

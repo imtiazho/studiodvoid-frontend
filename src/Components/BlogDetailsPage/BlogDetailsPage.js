@@ -31,49 +31,49 @@ const BlogDetailsPage = () => {
                             <div className='px-6'>
                                 <img src={blogDetailsPic1} alt="" />
                             </div>
-                            <h1 className='mt-5 font-bold text-3xl text-white'>Blog heading that will add after finalize</h1>
-                            <p className='text-white leading-relaxed'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
+                            <h1 className='mt-5 font-bold text-3xl text-secondary jose-font'>Blog heading that will add after finalize</h1>
+                            <p className='text-accent leading-relaxed jose-font'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
 
-                            <span className='text-white'>
+                            <span className='text-secondary'>
                                 <strong>Read This</strong>: <Link className=''>New Law Article</Link>
                             </span>
                         </div>
 
-                        <div className='mt-8 flex flex-col gap-6 border-b-2 pb-10'>
+                        <div className='mt-8 flex flex-col gap-6 border-b-2 border-accent pb-10'>
                             <div className='grid grid-cols-3 gap-4'>
                                 <img src={blogDetailsPic1} alt="" />
                                 <img src={blogDetailsPic1} alt="" />
                                 <img src={blogDetailsPic1} alt="" />
                             </div>
-                            <p className='text-white leading-relaxed'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line.</p>
+                            <p className='text-accent leading-relaxed jose-font'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line.</p>
 
-                            <span className='text-white pl-5 leading-loose'>
+                            <span className='text-accent pl-5 leading-loose'>
                                 {
                                     blogPointsOne.map((eachPoint, index) =>
-                                        <p>{index + 1}. {eachPoint}</p>
+                                        <p className='jose-font'>{index + 1}. {eachPoint}</p>
                                     )
                                 }
                             </span>
 
-                            <p className='text-white leading-relaxed'>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment and yet</p>
+                            <p className='text-accent leading-relaxed jose-font'>I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment and yet</p>
 
                             <div className='bg-[#272727] px-10 py-8 border-l-2 border-primary'>
-                                <p className='text-[#ddd] leading-relaxed font-bold italic'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarks.</p>
+                                <p className='text-accent leading-relaxed font-bold italic jose-font'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarks.</p>
                             </div>
 
-                            <span className='text-white pl-5 leading-loose'>
+                            <span className='text-accent pl-5 leading-loose'>
                                 {
                                     blogPointsTwo.map((eachPoint, index) =>
-                                        <p>{index + 1}. {eachPoint}</p>
+                                        <p className='jose-font'>{index + 1}. {eachPoint}</p>
                                     )
                                 }
                             </span>
                         </div>
 
                         <div className='my-12'>
-                            <h1 className='text-primary text-2xl font-bold mb-10'>Leave a Reply</h1>
+                            <h1 className='text-primary text-2xl font-bold mb-8'>Leave a Reply</h1>
 
-                            <form className='w-4/5 mt-10 flex flex-col gap-4'>
+                            <form className='w-4/5 flex flex-col gap-4'>
                                 <textarea rows='5' placeholder='Message' type="text" className='w-full focus:outline-0 h-full bg-[#F7F7F7] p-[1rem] text-black resize-none border'></textarea>
                                 <div className='flex justify-between gap-4'>
                                     <input placeholder='Subject' type="text" className='w-full focus:outline-0 h-full bg-[#F7F7F7] p-[1rem] text-black border' />
@@ -88,16 +88,15 @@ const BlogDetailsPage = () => {
                     </div>
 
                     <div className='flex flex-col gap-8 text-left'>
-                        <h2 className='text-white text-2xl font-bold'>Recent Articles</h2>
-
                         <div className='flex flex-col gap-6'>
+                            <h2 className='text-secondary text-2xl font-bold'>Recent Articles</h2>
                             <div className='flex items-center gap-4'>
                                 <div className='h-20'>
                                     <img className='h-full w-full object-cover' src={blogPic} alt="" />
                                 </div>
                                 <div className='flex flex-col gap-3'>
-                                    <Link className='text-white font-medium text-lg'>THE VILLA OVERLOOKS DRAMATIC MOUNTAINOUS SCENERY</Link>
-                                    <div className='flex items-center gap-6 text-[#9C9CA8]'>
+                                    <Link className='text-secondary font-medium text-lg'>THE VILLA OVERLOOKS DRAMATIC MOUNTAINOUS SCENERY</Link>
+                                    <div className='flex items-center gap-6 text-accent'>
                                         <span className='flex items-center gap-2 font-medium text-sm'>
                                             <span className='text-xs'><AiOutlineClockCircle /></span>
                                             <p className='text-xs'>12 - August - 2018</p>
@@ -115,8 +114,8 @@ const BlogDetailsPage = () => {
                                     <img className='h-full w-full object-cover' src={blogPic} alt="" />
                                 </div>
                                 <div className='flex flex-col gap-3'>
-                                    <Link className='text-white font-medium text-lg'>THE VILLA OVERLOOKS DRAMATIC MOUNTAINOUS SCENERY</Link>
-                                    <div className='flex items-center gap-6 text-[#9C9CA8]'>
+                                    <Link className='text-secondary font-medium text-lg'>THE VILLA OVERLOOKS DRAMATIC MOUNTAINOUS SCENERY</Link>
+                                    <div className='flex items-center gap-6 text-accent'>
                                         <span className='flex items-center gap-2 font-medium text-sm'>
                                             <span className='text-xs'><AiOutlineClockCircle /></span>
                                             <p className='text-xs'>12 - August - 2018</p>
@@ -132,7 +131,7 @@ const BlogDetailsPage = () => {
 
 
                         <div>
-                            <h2 className='text-white mb-6 text-2xl font-bold'>Tag Cloud</h2>
+                            <h2 className='text-secondary mb-4 text-2xl font-bold'>Tag Cloud</h2>
 
                             <div className='flex flex-wrap gap-2'>
                                 {
@@ -142,17 +141,17 @@ const BlogDetailsPage = () => {
                         </div>
 
                         <div>
-                            <h2 className='text-white mb-6 text-2xl font-bold'>Text Widgets</h2>
+                            <h2 className='text-secondary mb-4 text-2xl font-bold'>Text Widgets</h2>
 
-                            <p className='text-white'>Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Etiam porta sem malesuada.</p>
+                            <p className='text-accent text-[15px]'>Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Etiam porta sem malesuada.</p>
                         </div>
 
                         <div className='text-primary flex flex-col'>
-                            <h2 className='text-white mb-6 text-2xl font-bold'>Our Services</h2>
+                            <h2 className='text-secondary mb-4 text-2xl font-bold'>Our Services</h2>
 
                             {
                                 othersServicesLink.map(eachLink =>
-                                    <div className='border-b py-3 flex items-center gap-3'>
+                                    <div className='border-b border-accent py-3 flex items-center gap-3'>
                                         <div className='w-[2px] h-full bg-primary'></div>
                                         <p className='hover:translate-x-1 cursor-pointer duration-300 font-medium'>{eachLink}</p>
                                     </div>

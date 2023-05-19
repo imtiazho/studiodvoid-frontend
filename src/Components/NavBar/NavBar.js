@@ -21,9 +21,9 @@ const NavBar = () => {
                         <li className='relative'>
                             <Link className='focus:bg-transparent focus:text-white hover:bg-transparent' to='/services'>SERVICES</Link>
                             <ul className="text-black absolute top-[2rem] left-0">
-                                <li><Link className='hover:translate-x-[5px] focus:text-black pr-[7rem] py-4 border-b bg-[#fff]' to='/architecture-page'>Architecture</Link></li>
-                                <li><Link to='/interiorWork-page' className='hover:translate-x-[5px] focus:text-black pr-[7rem] py-4 border-b bg-[#fff]'>Interior Work</Link></li>
-                                <li><Link to='/planning-page' className='hover:translate-x-[5px] focus:text-black pr-[7rem] py-4 border-b bg-[#fff]'>Planning</Link></li>
+                                <li><Link className='hover:translate-x-[5px] focus:text-black pr-[7rem] py-4 border-b bg-secondary' to='/architecture-page'>Architecture</Link></li>
+                                <li><Link to='/interiorWork-page' className='hover:translate-x-[5px] focus:text-black pr-[7rem] py-4 border-b bg-secondary'>Interior Work</Link></li>
+                                <li><Link to='/planning-page' className='hover:translate-x-[5px] focus:text-black pr-[7rem] py-4 border-b bg-secondary'>Planning</Link></li>
                             </ul>
                         </li>
                     </ul>

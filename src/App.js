@@ -11,6 +11,7 @@ import Architecture from './Components/Architecture/Architecture';
 import InteriorWork from './Components/InteriorWork/InteriorWork';
 import Planning from './Components/Planning/Planning';
 import BlogDetailsPage from './Components/BlogDetailsPage/BlogDetailsPage';
+import Button from './Components/Button/Button';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path='/blogD' element={<BlogDetailsPage></BlogDetailsPage>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/contact-us' element={<ContactPage></ContactPage>}></Route>
+        <Route path='/but' element={<Button></Button>}></Route>
       </Routes>
     </div>
   );
