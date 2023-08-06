@@ -76,7 +76,7 @@ body {
 .neon:focus {
   color: white;
   background-color: var(--clr-neon);
-text-shadow: none;
+  text-shadow: none;
 }
 .neon:hover::before {
   opacity: 0.8;

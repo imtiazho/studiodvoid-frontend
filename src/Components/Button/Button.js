@@ -5,7 +5,7 @@ const Button = () => {
     return (
         <div className='my-24'>
             <div>
-                <button className='btn btn-black border-0 soomething'>Button</button>
+                <button className='btn btn-primary border-0 soomething block'>Button</button>
                 <a class="neon jose-font">Neon</a>
 
                 {/* new  */}
