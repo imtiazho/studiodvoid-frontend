@@ -22,7 +22,7 @@ const Topbanner = () => {
     return (
         <div>
             <div className="carousel w-full h-[100vh] relative">
-                <div id="item1" className="carousel-item w-full relative">
+                <div className="relative">
                     <img src={banner1} className="w-full object-cover relative" />
                     <div className='absolute w-full h-full bg-[#000] opacity-70 z-1'></div>
                     <div style={positioningForBannerText} className='absolute text-left'>
@@ -33,7 +33,7 @@ const Topbanner = () => {
                         <Link className='btn border-primary border-2 bg-transparent text-primary font-normal rounded-none mt-10 hover:bg-primary hover:border-transparent hover:text-black'>Projects</Link>
                     </div>
                 </div>
-                <div id="item2" className="carousel-item w-full relative">
+                <div id="item2" className="relative">
                     <img src={banner2} className="w-full object-cover relative" />
                     <div className='absolute w-full h-full bg-[#000] opacity-60 z-1'></div>
                     <div style={positioningForBannerText} className='absolute text-left'>
@@ -44,7 +44,7 @@ const Topbanner = () => {
                         <Link className='btn border-primary border-2 bg-transparent text-primary font-normal rounded-none mt-10 hover:bg-primary hover:border-transparent hover:text-black'>Projects</Link>
                     </div>
                 </div>
-                <div id="item3" className="carousel-item w-full relative">
+                <div id="item3" className="relative">
                     <img src={banner3} className="w-full object-cover relative" />
                     <div className='absolute w-full h-full bg-[#000] opacity-60 z-1'></div>
                     <div style={positioningForBannerText} className='absolute text-left'>
@@ -55,7 +55,7 @@ const Topbanner = () => {
                         <Link className='btn border-primary border-2 bg-transparent text-primary font-normal rounded-none mt-10 hover:bg-primary hover:border-transparent hover:text-black'>Projects</Link>
                     </div>
                 </div>
-                <div id="item4" className="carousel-item w-full relative">
+                <div id="item4" className="relative">
                     <img src={banner4} className="w-full object-cover relative" />
                     <div className='absolute w-full h-full bg-[#000] opacity-60 z-1'></div>
                     <div style={positioningForBannerText} className='absolute text-left'>

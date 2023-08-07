@@ -6,10 +6,11 @@ import { ImCross } from 'react-icons/im';
 
 const NavBar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+
     return (
         <div className='text-white'>
             <div className='absolute top-0 h-[80px] z-10 px-[5%] flex justify-between items-center w-full pt-[1.5rem]'>
-                <div className='w-[160px]'>
+                <div className='w-[130px]'>
                     <img src={logo} alt="" />
                 </div>
 

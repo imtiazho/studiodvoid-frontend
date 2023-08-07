@@ -1,0 +1,43 @@
+.swiper-pagination {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 18rem;
+  margin-bottom: 40px;
+}
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 23px;
+  border-radius: 0;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  color: #fff;
+  opacity: 1;
+  background: transparent;
+}
+
+.swiper-pagination-bullet-active {
+  border-bottom: 2px solid white;
+}
+
+.forAnimation {
+  animation: scaleUp 15s linear 0s infinite;
+}
+
+/* Define the animation */
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  51% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -12,6 +12,8 @@ import InteriorWork from './Components/InteriorWork/InteriorWork';
 import Planning from './Components/Planning/Planning';
 import BlogDetailsPage from './Components/BlogDetailsPage/BlogDetailsPage';
 import Button from './Components/Button/Button';
+import MainTopBanner from './Components/MainTopBanner/MainTopBanner';
+import ProjectDetailsMain from './Components/ProjectDetailsMain/ProjectDetailsMain';
 
 function App() {
   return (
@@ -24,11 +26,12 @@ function App() {
         <Route path='/interiorWork-page' element={<InteriorWork></InteriorWork>}></Route>
         <Route path='/planning-page' element={<Planning></Planning>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
-        <Route path='/projectsD' element={<ProjectDetails></ProjectDetails>}></Route>
+        <Route path='/projectsD' element={<ProjectDetailsMain></ProjectDetailsMain>}></Route>
+        <Route path='/projectsDs' element={<ProjectDetails></ProjectDetails>}></Route>
         <Route path='/blogD' element={<BlogDetailsPage></BlogDetailsPage>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/contact-us' element={<ContactPage></ContactPage>}></Route>
-        <Route path='/but' element={<Button></Button>}></Route>
+        {/* <Route path='/but' element={<Button></Button>}></Route> */}
       </Routes>
     </div>
   );
