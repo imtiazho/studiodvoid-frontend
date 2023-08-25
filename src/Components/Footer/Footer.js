@@ -60,7 +60,7 @@ const Footer = () => {
                     </Link>
                 </div>
             </div>
-            <div className='text-center text-[14px] text-[#ddd] pt-8'>
+            <div className='text-center md:text-[14px] text-[10px] md:font-normal font-[300] text-[#ddd] md:pt-8 pt-4'>
                 <p>{`Copyright © ${today} - This site is designed and developed by vollosoft`}</p>
             </div>
         </footer>

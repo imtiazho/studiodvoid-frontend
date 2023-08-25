@@ -26,6 +26,18 @@
   animation: scaleUp 15s linear 0s infinite;
 }
 
+.positioningForBannerText {
+  left: 20%;
+  top: 30%;
+  transform: translateX(-50%);
+}
+
+.bannerMotoStyle {
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+}
+
 /* Define the animation */
 @keyframes scaleUp {
   0% {
@@ -39,5 +51,56 @@
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 1255px) {
+  .swiper-pagination {
+    gap: 13rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .positioningForBannerText {
+    transform: translateX(-30%);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .swiper-pagination {
+    gap: 10rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .swiper-pagination {
+    gap: 8rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .positioningForBannerText {
+    transform: translateX(-25%);
+  }
+  .bannerMotoStyle {
+    font-size: 40px;
+  }
+  .swiper-pagination {
+    gap: 5rem;
+  }
+  .swiper-pagination-bullet {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .positioningForBannerText {
+    transform: translateX(-18%);
+  }
+  .bannerMotoStyle {
+    font-size: 30px;
+  }
+  .swiper-pagination {
+    display: none;
   }
 }

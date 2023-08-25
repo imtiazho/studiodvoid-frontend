@@ -29,60 +29,60 @@ const About = () => {
     return (
         <div>
             <NavBar />
-            <div className='pt-44 text-left'>
-                <div className='w-5/6 mx-auto text-secondary'>
-                    <p className='text-[12px] tracking-widest mb-2'>WE ARE STUDIO D' VOID</p>
-                    <p className='text-[42px] font-[700] w-[95%]'>Our bulding are inspired by the challenge of balancing function & beauty .</p>
+            <div className='lg:pt-44 md:pt-40 pt-28 text-left'>
+                <div className='lg:w-5/6 w-[90%] mx-auto text-secondary'>
+                    <p className='md:text-[12px] text-[10px] tracking-widest mb-2'>WE ARE STUDIO D' VOID</p>
+                    <p className='xl:text-[42px] lg:text-[30px] md:text-[33px] text-[21px] md:font-[700] font-[600] lg:w-[95%] w-full'>Our bulding are inspired by the challenge of balancing function & beauty .</p>
                 </div>
 
-                <div className='w-[98%] mx-auto mt-16 mb-24'>
+                <div className='w-[98%] mx-auto lg:mt-16 md:mt-10 mt-8 lg:mb-24 md:mb-20 mb-12'>
                     <img src={aboutImage1} alt="" />
                 </div>
 
-                <div className='grid grid-cols-2 w-5/6 mx-auto'>
+                <div className='grid md:gap-10 gap-6 lg:grid-cols-2 grid-cols-1 xl:w-5/6 w-[90%]  mx-auto'>
                     <div className='grid grid-cols-2 gap-6 text-secondary'>
                         <div>
-                            <p className='text-4xl mb-3 font-bold'>18 +</p>
-                            <p className='text-[12px] tracking-widest mb-2'>YEARS OF EXPERIENCE</p>
+                            <p className='lg:text-4xl md:text-[30px] text-[25px] md:mb-3 mb-1 font-bold'>18 +</p>
+                            <p className='md:text-[12px] text-[10px] tracking-widest mb-2'>YEARS OF EXPERIENCE</p>
                         </div>
                         <div>
-                            <p className='text-4xl mb-3 font-bold'>126 +</p>
-                            <p className='text-[12px] tracking-widest mb-2'>HAPPY CLIENTS</p>
+                            <p className='lg:text-4xl md:text-[30px] text-[25px] md:mb-3 mb-1 font-bold'>126 +</p>
+                            <p className='md:text-[12px] text-[10px] tracking-widest mb-2'>HAPPY CLIENTS</p>
                         </div>
                         <div>
-                            <p className='text-4xl mb-3 font-bold'>224 +</p>
-                            <p className='text-[12px] tracking-widest mb-2'>COMPLETED PROJECTS</p>
+                            <p className='lg:text-4xl md:text-[30px] text-[25px] md:mb-3 mb-1 font-bold'>224 +</p>
+                            <p className='md:text-[12px] text-[10px] tracking-widest mb-2'>COMPLETED PROJECTS</p>
                         </div>
                         <div>
-                            <p className='text-4xl mb-3 font-bold'>16 +</p>
-                            <p className='text-[12px] tracking-widest mb-2'>DESIGN ARWARDS</p>
+                            <p className='lg:text-4xl md:text-[30px] text-[25px] md:mb-3 mb-1 font-bold'>16 +</p>
+                            <p className='md:text-[12px] text-[10px] tracking-widest mb-2'>DESIGN ARWARDS</p>
                         </div>
                     </div>
-                    <div className='flex flex-col gap-4 text-secondary'>
-                        <p className='text-[15px] leading-loose'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem galax accusantium doloremque laudantium, totam rem aper ein iam sha eaque ipsa quae ab illo inventore veritatis et quasi architecto luniso beatae vitae dicta sunt explicabo.</p>
-                        <p className='text-[15px] leading-loose'>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione vshaun oluptatem sequi nesciunt.</p>
+                    <div className='flex flex-col md:gap-4 gap-2 text-secondary'>
+                        <p className='md:text-[15px] text-[13px] md:leading-loose leading-relaxed font-[300] md:font-[400]'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem galax accusantium doloremque laudantium, totam rem aper ein iam sha eaque ipsa quae ab illo inventore veritatis et quasi architecto luniso beatae vitae dicta sunt explicabo.</p>
+                        <p className='md:text-[15px] text-[13px] md:leading-loose leading-relaxed font-[300] md:font-[400]'>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione vshaun oluptatem sequi nesciunt.</p>
                     </div>
                 </div>
 
                 <div className='text-center w-5/6 mt-24 mx-auto'>
-                    <p className='text-[12px] tracking-widest mb-2 text-secondary'>WHAT WE DO</p>
-                    <h1 className='text-5xl font-bold text-secondary'>Our specilization</h1>
-                    <div className='mt-10 grid grid-cols-3'>
-                        <div className='py-40 px-8 flex flex-col gap-6 border-l border-[#272727]'>
+                    <p className='md:text-[12px] text-[10px] tracking-widest mb-2 text-secondary'>WHAT WE DO</p>
+                    <h1 className='lg:text-5xl md:text-[42px] sm:text-[35px] text-[28px] font-bold text-secondary'>Our specilization</h1>
+                    <div className='mt-10 gap-12 grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1'>
+                        <div className='xl:py-40 py-12 px-8 flex flex-col gap-6 xl:border-l md:border-0 border-b pb-8 md:pb-0 border-[#272727]'>
                             <div className='flex justify-center my-[18px]'>
                                 <img src={service1} alt="" />
                             </div>
                             <h1 className='text-xl font-[500] text-secondary'>ARCHITECTURE</h1>
                             <p className='text-[13px] font-[300] text-accent'>Lorem ipsum dolor sit amet, consectetur adipist pricing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
-                        <div className='py-40 px-8 flex flex-col gap-6 border-l border-[#272727]'>
+                        <div className='xl:py-40 py-12 px-8 flex flex-col gap-6 xl:border-l md:border-0 border-b pb-8 md:pb-0 border-[#272727]'>
                             <div className='flex justify-center my-[18px]'>
                                 <img src={service2} alt="" />
                             </div>
                             <h1 className='text-xl font-[500] text-secondary'>INTERIOR</h1>
                             <p className='text-[13px] font-[300] text-accent'>Lorem ipsum dolor sit amet, consectetur adipist pricing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
-                        <div className='py-40 px-8 flex flex-col gap-6 border-l border-r border-[#272727]'>
+                        <div className='xl:py-40 py-12 px-8 flex flex-col gap-6 xl:border-l xl:border-r border-[#272727]'>
                             <div className='flex justify-center my-[18px]'>
                                 <img src={service3} alt="" />
                             </div>
@@ -93,12 +93,12 @@ const About = () => {
                 </div>
 
                 <div style={{ background: `url(${bgPattern})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat", objectFit: "cover" }} className='my-20'>
-                    <div className='grid grid-cols-4 mx-auto w-5/6 items-center'>
-                        <div className='col-span-1'>
-                            <p className='text-[12px] tracking-[4px] mb-2 text-secondary'>AWESOME PARTNER</p>
-                            <p className='text-[42px] mt-2 text-secondary font-[600]'>Our Clients</p>
+                    <div className='grid lg:grid-cols-4 grid-cols-1 mx-auto lg:w-5/6 w-full items-center'>
+                        <div className='lg:col-span-1 text-center md:pt-[4rem] pt-[3rem]'>
+                            <p className='lg:text-[12px] text-[9px] tracking-[4px] mb-2 text-secondary'>AWESOME PARTNER</p>
+                            <p className='xl:text-[42px] lg:text-[35px] text-[30px] mt-2 text-secondary font-[600]'>Our Clients</p>
                         </div>
-                        <div className="my-20 grid grid-cols-4 gap-12 justify-items-center items-center col-span-3 py-6">
+                        <div className="md:my-20 my-10 grid xl:grid-cols-4 lg:grid-cols-3 grid-cols-2 gap-12 justify-items-center items-center lg:col-span-3 py-6">
                             <img src={client1} alt="" />
                             <img src={client2} alt="" />
                             <img src={client3} alt="" />
@@ -113,11 +113,11 @@ const About = () => {
 
                 <div className='w-[80%] mx-auto'>
                     <div className='col-span-1 text-center'>
-                        <p className='text-[12px] tracking-[4px] mb-2 text-secondary'>AWESOME PEOPLE</p>
-                        <p className='text-[42px] mt-2 text-secondary font-[600]'>Meet the team</p>
+                        <p className='lg:text-[12px] text-[9px] tracking-[4px] mb-2 text-secondary'>AWESOME PEOPLE</p>
+                        <p className='xl:text-[42px] lg:text-[35px] text-[30px] mt-2 text-secondary font-[600]'>Meet the team</p>
                     </div>
 
-                    <div className='grid grid-cols-3 gap-16 mt-16 mb-36'>
+                    <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-16 mt-16 md:mb-36 mb-24'>
                         <div className="card items-center">
                             <figure onMouseLeave={() => setMousein(false)} onMouseEnter={() => setMousein(1)} className='relative w-[250px] h-[250px] object-cover rounded-full mb-2'>
                                 <img className={`${mousein === 1 && "scale-110"} duration-500 object-cover`} src={teamMembersPic1} alt="Pic" />

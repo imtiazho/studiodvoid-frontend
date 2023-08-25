@@ -7,7 +7,7 @@ const ContactPage = () => {
     return (
         <div>
             <NavBar />
-            <div className='pt-36 mb-16'>
+            <div className='md:pt-36 pt-28 mb-16'>
                 <ContactForm />
             </div>
             <Footer />
