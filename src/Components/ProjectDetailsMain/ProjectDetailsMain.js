@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import projectImage1 from '../../Media/project-1.jpg';
 import projectImage2 from '../../Media/post-01.jpg';
 import projectImage3 from '../../Media/post-02.jpg';
@@ -13,6 +14,9 @@ import NavBar from '../NavBar/NavBar';
 const ProjectDetailsMain = () => {
     return (
         <div>
+            <Helmet>
+                <title>Project Details | StudioDvoid</title>
+            </Helmet>
             <NavBar />
             <div className='lg:w-[75%] md:w-[90%] w-[95%] mx-auto pt-[10rem] text-left flex flex-col md:gap-10 gap-6'>
                 <h1 className='lg:text-[55px] md:text-[45px] sm:text-[35px] text-[25px] font-[800] text-secondary'>Creative Studio 8</h1>

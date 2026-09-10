@@ -5,6 +5,7 @@ import banner3 from '../../Media/bt-3.jpg';
 import banner4 from '../../Media/bt-4.jpg';
 import { Link } from 'react-router-dom';
 import { FaLongArrowAltRight } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
@@ -47,7 +48,13 @@ const MainTopBanner = () => {
                         </div>
                         <img src={banner1} className="w-full h-[100vh] object-cover relative forAnimation" alt='Banner' />
                         <div className='absolute w-full h-full bg-[#000] opacity-[0.1]  z-1'></div>
-                        <div className='positioningForBannerText absolute text-left z-10'>
+                        <motion.div
+                            initial={{ opacity: 0, y: 40 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6, ease: 'easeOut' }}
+                            className='positioningForBannerText absolute text-left z-10'
+                        >
                             <p className='sm:text-[12px] text-[10px] tracking-widest mb-2 text-white'>WE ARE STUDIO D' VOID</p>
                             <h1 className='leading-sung bannerMotoStyle' >Catena Homestay</h1>
                             <p className='md:text-[15px] text-[11px] md:mt-6 mt-2 text-white leading-loose uppercase tracking-[5px]'>Sherbrooke . Canada</p>
@@ -56,7 +63,7 @@ const MainTopBanner = () => {
                                 <span className='md:text-[15px] text-[12px]'>Projects</span>
                                 <FaLongArrowAltRight />
                             </Link>
-                        </div>
+                        </motion.div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -69,7 +76,13 @@ const MainTopBanner = () => {
                         </div>
                         <img src={banner2} className="w-full h-[100vh] object-cover relative forAnimation" alt='Banner' />
                         <div className='absolute w-full h-full bg-[#000] opacity-[0.1]  z-1'></div>
-                        <div className='positioningForBannerText absolute text-left z-10'>
+                        <motion.div
+                            initial={{ opacity: 0, y: 40 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6, ease: 'easeOut' }}
+                            className='positioningForBannerText absolute text-left z-10'
+                        >
                             <p className='sm:text-[12px] text-[10px] tracking-widest mb-2 text-white'>WE ARE STUDIO D' VOID</p>
                             <h1 className='leading-sung bannerMotoStyle' >Mountain House</h1>
                             <p className='md:text-[15px] text-[11px] md:mt-6 mt-2 text-white leading-loose uppercase tracking-[5px]'>Ontario . Canadaa</p>
@@ -78,7 +91,7 @@ const MainTopBanner = () => {
                                 <span className='md:text-[15px] text-[12px]'>Projects</span>
                                 <FaLongArrowAltRight />
                             </Link>
-                        </div>
+                        </motion.div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -91,7 +104,13 @@ const MainTopBanner = () => {
                         </div>
                         <img src={banner3} className="w-full h-[100vh] object-cover relative forAnimation" alt='Banner' />
                         <div className='absolute w-full h-full bg-[#000] opacity-[0.1]  z-1'></div>
-                        <div className='positioningForBannerText absolute text-left z-10'>
+                        <motion.div
+                            initial={{ opacity: 0, y: 40 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6, ease: 'easeOut' }}
+                            className='positioningForBannerText absolute text-left z-10'
+                        >
                             <p className='sm:text-[12px] text-[10px] tracking-widest mb-2 text-white'>WE ARE STUDIO D' VOID</p>
                             <h1 className='leading-sung bannerMotoStyle' >Brave Homestay</h1>
                             <p className='md:text-[15px] text-[11px] md:mt-6 mt-2 text-white leading-loose uppercase tracking-[5px]'>New york . USA</p>
@@ -100,7 +119,7 @@ const MainTopBanner = () => {
                                 <span className='md:text-[15px] text-[12px]'>Projects</span>
                                 <FaLongArrowAltRight />
                             </Link>
-                        </div>
+                        </motion.div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -113,7 +132,13 @@ const MainTopBanner = () => {
                         </div>
                         <img src={banner4} className="w-full h-[100vh] object-cover relative forAnimation" alt='Banner' />
                         <div className='absolute w-full h-full bg-[#000] opacity-[0.1]  z-1'></div>
-                        <div className='positioningForBannerText absolute text-left z-10'>
+                        <motion.div
+                            initial={{ opacity: 0, y: 40 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6, ease: 'easeOut' }}
+                            className='positioningForBannerText absolute text-left z-10'
+                        >
                             <p className='sm:text-[12px] text-[10px] tracking-widest mb-2 text-white'>WE ARE STUDIO D' VOID</p>
                             <h1 className='leading-sung bannerMotoStyle' >Vanilla Resort</h1>
                             <p className='md:text-[15px] text-[11px] md:mt-6 mt-2 text-white leading-loose uppercase tracking-[5px]'>Toronto . Canada</p>
@@ -122,7 +147,7 @@ const MainTopBanner = () => {
                                 <span className='md:text-[15px] text-[12px]'>Projects</span>
                                 <FaLongArrowAltRight />
                             </Link>
-                        </div>
+                        </motion.div>
                     </div>
                 </SwiperSlide>
             </Swiper>

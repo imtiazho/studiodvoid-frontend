@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import NavBar from '../NavBar/NavBar';
 import InteriorBanner from '../../Media/section-banner.jpg';
 import PageBanner from '../PageBanner/PageBanner';
@@ -27,6 +28,9 @@ import teamImage2 from '../../Media/team-img02.jpg';
 const InteriorWork = () => {
     return (
         <div>
+            <Helmet>
+                <title>Interior Work | StudioDvoid</title>
+            </Helmet>
             <NavBar />
             <PageBanner banner={InteriorBanner} moto={"Interior Work"} subTitle={"About our Interior Work up"} />
 
@@ -36,9 +40,9 @@ const InteriorWork = () => {
                         <div className='text-left px-4 py-8 bg-[#333]'>
                             <p className='mb-4 md:text-xl text-[17px] border-b border-secondary pb-2 text-secondary'>More Services</p>
                             <div className='flex flex-col gap-4'>
-                                <Link className='hover:bg-primary duration-300 hover:text-white bg-white p-3 text-black md:text-[15px] text-[13px]'>Architecture</Link>
-                                <Link className='hover:bg-primary duration-300 hover:text-white bg-primary p-3 md:text-[15px] text-[13px]'>Interior Work</Link>
-                                <Link className='hover:bg-primary duration-300 hover:text-white bg-white p-3 text-black md:text-[15px] text-[13px]'>Planning</Link>
+                                <Link to='/architecture-page' className='hover:bg-primary duration-300 hover:text-white bg-white p-3 text-black md:text-[15px] text-[13px]'>Architecture</Link>
+                                <Link to='/interiorWork-page' className='hover:bg-primary duration-300 hover:text-white bg-primary p-3 md:text-[15px] text-[13px]'>Interior Work</Link>
+                                <Link to='/planning-page' className='hover:bg-primary duration-300 hover:text-white bg-white p-3 text-black md:text-[15px] text-[13px]'>Planning</Link>
                             </div>
                         </div>
                         <div className='text-left px-4 py-8 bg-[#333]'>

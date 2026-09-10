@@ -14,10 +14,12 @@ import BlogDetailsPage from './Components/BlogDetailsPage/BlogDetailsPage';
 import Button from './Components/Button/Button';
 import MainTopBanner from './Components/MainTopBanner/MainTopBanner';
 import ProjectDetailsMain from './Components/ProjectDetailsMain/ProjectDetailsMain';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop></ScrollToTop>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/projects' element={<Projects></Projects>}></Route>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import NavBar from '../NavBar/NavBar';
 import blogBanner from '../../Media/section-banner.jpg';
 import PageBanner from '../PageBanner/PageBanner';
@@ -20,6 +21,9 @@ const BlogDetailsPage = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Blog Details | StudioDvoid</title>
+            </Helmet>
             <NavBar />
             <PageBanner banner={blogBanner} moto={"Single Blog"} subTitle={"Something will add with dynamically"} />
 

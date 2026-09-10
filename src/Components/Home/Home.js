@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import VerticalSocial from '../VerticalSocial/VerticalSocial';
 import Dept from '../Dept/Dept';
 import ProjectHomePage from '../ProjectHomePage/ProjectHomePage';
@@ -11,6 +12,9 @@ import MainTopBanner from '../MainTopBanner/MainTopBanner';
 const Home = () => {
     return (
         <div>
+            <Helmet>
+                <title>Home | StudioDvoid</title>
+            </Helmet>
             <MainTopBanner />
             <VerticalSocial />
             {/* <Dept />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import banner from '../../Media/projectDetails-title-bg.jpg';
 import NavBar from '../NavBar/NavBar';
 import projectMainPic1 from '../../Media/project-1s.jpg';
@@ -15,6 +16,9 @@ import SubFooter from '../SubFooter/SubFooter';
 const ProjectDetails = () => {
     return (
         <div>
+            <Helmet>
+                <title>Project Details | StudioDvoid</title>
+            </Helmet>
             <NavBar />
             <div style={{ background: `url(${banner})`, backgroundPosition: "center", backgroundSize: "cover" }} className='w-full lg:h-96 xl:h-96 md:h-auto relative'>
                 <div className='absolute w-full h-full bg-[#000] opacity-60 z-1'></div>

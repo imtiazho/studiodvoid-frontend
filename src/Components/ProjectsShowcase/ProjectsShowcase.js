@@ -33,7 +33,7 @@ const ProjectsShowcase = () => {
                         <p className='2xl:text-6xl xl:text-[50px] lg:text-[40px] md:text-[35px] text-[30px] font-[600]'>Space Speaker Studio</p>
                     </div>
                     <p className='text-[12px] w-[90%] lg:my-6 md:my-2 sm:my-4 my-4 leading-loose text-accent'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque still laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi arch sat itecto beatae vitae dicta sunt explicabo.</p>
-                    <button className='flex items-center gap-2 btn border-primary border-2 bg-transparent text-primary font-normal rounded-none hover:bg-primary hover:border-transparent hover:text-black'><span>See Project</span> <BsArrowRight /></button>
+                    <Link to='/projectsD' className='flex items-center gap-2 btn border-primary border-2 bg-transparent text-primary font-normal rounded-none hover:bg-primary hover:border-transparent hover:text-black lg:text-[16px] text-[13px]'><span>See Project</span> <BsArrowRight /></Link>
                 </div>
             </div>
             <div className='grid lg:grid-cols-2 grid-cols-1 md:gap-16 gap-10 items-center'>

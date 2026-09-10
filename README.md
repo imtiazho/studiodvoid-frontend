@@ -1,73 +1,150 @@
-# Getting Started with Create React App
+# StudioDvoid — Creative Studio Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+StudioDvoid is a responsive creative studio portfolio website built with React. The project focuses on presenting creative services, studio information, selected work, and visual content through a modern and engaging interface.
 
-## Available Scripts
+This repository contains the frontend application.
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+* 🎨 Creative studio portfolio interface
+* 💼 Service and studio information sections
+* 🖼️ Project and visual content presentation
+* 📱 Responsive design
+* 🧩 Reusable React components
+* 🧭 Client-side navigation
+* 🎞️ Interactive sliders and carousels
+* ✨ Modern UI interactions
+* 📐 Structured multi-section layout
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **React.js**
+* **JavaScript**
+* **Tailwind CSS**
+* **DaisyUI**
+* **React Router**
+* **Swiper**
+* **React Icons**
+* **Create React App**
 
-### `npm test`
+## 📂 Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```text
+src/
+├── Components/
+│   ├── ...
+│
+├── App.js
+├── App.css
+├── index.css
+└── index.js
+```
 
-### `npm run build`
+The project is organized into reusable React components to keep the interface structured and maintainable.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Make sure you have the following installed:
 
-### `npm run eject`
+* Node.js
+* npm
+* Git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Clone the repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/imtiazho/studiodvoid-frontend.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Navigate to the project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+cd studiodvoid-frontend
+```
 
-## Learn More
+### 3. Install dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 4. Start the development server
 
-### Code Splitting
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The application will be available at:
 
-### Analyzing the Bundle Size
+```text
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📦 Available Scripts
 
-### Making a Progressive Web App
+### Start development server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm start
+```
 
-### Advanced Configuration
+### Create production build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm run build
+```
 
-### Deployment
+### Run tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm test
+```
 
-### `npm run build` fails to minify
+## 🎯 Project Focus
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# studiodvoid-frontend" 
-"# studioDvoidFirst" 
-"# studioDvoidFirst" 
+StudioDvoid was built with a strong focus on frontend development and visual presentation.
+
+The project explores:
+
+* Component-based React development
+* Responsive layouts
+* Client-side routing
+* Reusable UI sections
+* Modern navigation patterns
+* Interactive sliders and content presentation
+* Tailwind CSS utility-based styling
+* DaisyUI components
+
+## 📱 Responsive Design
+
+The website is designed to work across different screen sizes, including:
+
+* Desktop
+* Tablet
+* Mobile
+
+The layout adapts its content and sections to provide a consistent browsing experience across devices.
+
+## 🔗 Live Demo
+
+[Visit StudioDvoid](https://studio-dvoid.netlify.app/)
+
+## 📂 Repository
+
+[GitHub Repository](https://github.com/imtiazho/studiodvoid-frontend)
+
+## 👨‍💻 Author
+
+**Imtiaz Hossain**
+
+* GitHub: https://github.com/imtiazho
+* LinkedIn: https://www.linkedin.com/in/imtiazho/
+* Portfolio: https://imtiazho.netlify.app/
+
+## 📌 About This Project
+
+StudioDvoid was built as a practical frontend project to strengthen React development skills while working on a visually focused multi-section website.
+
+The project provided hands-on experience with reusable React components, responsive UI development, client-side routing, Tailwind CSS, interactive content sections, and modern frontend libraries.
